@@ -8,41 +8,42 @@ body{
     /* text-align: center; */
 }
 #cuadro{
-    
+    /* position:static; */
     height: 300px;
     /* margin: 30px auto; */
     /* padding-top: 20px;
     padding-bottom: 20px; */
     border: 2px solid red;
-    text-align: center;
+    /* text-align: center; */
     display: block;
     overflow: visible;
 }
 
-.div-svg{     
-    width: 30%;
-    height: 300px;
-    border: 2px solid red;
+.div-svg{    
+    width: 20%;
+    height: 100%; 
+    border-right: 1px solid grey;
     overflow:visible;
     display: inline-block;
 }
 svg{
-    width: 100%;
+    position: relative;
+    width: 30%;
     height: 100%;
-    border: 2px solid blue;
-    
+    left: 30px;
+    /* border: 2px solid blue; */
+    overflow:visible;
 }
 
 #svg{
-    position: absolute;
     display: block;
-    left: 0px;
 }
 .datos{
+    position: absolute;
     width: 50%;
-    /* height: 200px;  */
+    top:0px;
     border:1px solid green;
-    overflow:visible;
+    /* overflow:visible; */
     display: inline-block;
 }
 
