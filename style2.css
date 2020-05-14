@@ -5,33 +5,30 @@
 }
 
 body{
-    /* text-align: center; */
+    background-color: beige;
 }
 #cuadro{
-    /* position:static; */
+    position: relative;
     height: 300px;
-    /* margin: 30px auto; */
-    /* padding-top: 20px;
-    padding-bottom: 20px; */
-    border: 2px solid red;
-    /* text-align: center; */
+    /* border: 2px solid red; */
     display: block;
     overflow: visible;
 }
 
-.div-svg{    
+.div-svg{  
+    position: absolute;  
     width: 20%;
     height: 100%; 
-    border-right: 1px solid grey;
+    /* border-right: 1px solid grey; */
     overflow:visible;
     display: inline-block;
 }
 svg{
-    position: relative;
-    width: 30%;
-    height: 100%;
+    position: absolute;
+    display: inline-block;
+    /* width: 50%; */
+    height: 90%;
     left: 30px;
-    /* border: 2px solid blue; */
     overflow:visible;
 }
 
@@ -39,12 +36,22 @@ svg{
     display: block;
 }
 .datos{
-    position: absolute;
-    width: 50%;
-    top:0px;
-    border:1px solid green;
-    /* overflow:visible; */
+    position: relative;
+    width: 80%;
+    height: 100%;
+    top:0px;    
+    margin-left:20%;
+    /* border:1px solid green; */
     display: inline-block;
+}
+#table{
+    /* border: 1px solid red; */
+    position: absolute;
+    width: 80%;
+    margin: 2% 10%;
+    /* top:10%;
+    left: 5%; */
+    
 }
 
 .region{
